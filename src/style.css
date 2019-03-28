@@ -1,42 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
     font-family: 'Pacifico', cursive;
-    color: #FFFEFE;
+    color: #fffefe;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 body {
     margin: 0;
-    background: linear-gradient(201.19deg, #7A84B9 0%, #99A9FF 0.01%, #FFA7DC 49.69%, #894B70 100%);
+    background: linear-gradient(201.19deg, #7a84b9 0%, #99a9ff 0.01%, #ffa7dc 49.69%, #894b70 100%);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
+    font-size: 5rem;
     text-align: center;
-    font-size: 80px;
+    width: auto;
 }
 
 input {
-    display: flex;
-    height: 1cm;
+    padding: 0.8rem;
     font-family: 'Roboto Mono', monospace;
     color: black;
-    flex-direction: column;
 }
 
-.inputStart {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+button {
+    color: #2a385b;
+}
+
+.mail {
+    margin: 0.5rem;
 }
 
 .camera {
     width: 3%;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     display: none;
 }
 
