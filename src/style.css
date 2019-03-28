@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+    font-family: 'Pacifico', cursive;
+    color: #FFFEFE;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+body {
+    margin: 0;
+    background: linear-gradient(201.19deg, #7A84B9 0%, #99A9FF 0.01%, #FFA7DC 49.69%, #894B70 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+input {
+    display: flex;
+    height: 1cm;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    flex-direction: column;
+}
+
+.inputStart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.camera {
+    width: 3%;
+}
+
+.sign-up {
+    display: none;
+}
+
+.boxPost {
+    color: black;
+}
